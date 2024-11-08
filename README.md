@@ -1,0 +1,2 @@
+## Parent: accountSearch
+## Child: accountDetail
