@@ -1,0 +1,12 @@
+<template>
+    <template if:true={account}>
+        <lightning-card title="Account Details" icon-name="standard:account">
+            <div class="slds-p-around_medium">
+                <p><strong>Name:</strong> {account.Name}</p>
+                <p><strong>Email:</strong> {account.Email}</p>
+                <p><strong>Phone:</strong> {account.Phone}</p>
+                <p><strong>Website:</strong> {account.Website}</p>
+            </div>
+        </lightning-card>
+    </template>
+</template>
